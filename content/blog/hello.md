@@ -42,4 +42,6 @@ the issues was a pain in the butt.
 Luckily, I found [Tabi](https://github.com/welpo/tabi?tab=readme-ov-file) and the [Tabi Quickstart](https://github.com/welpo/tabi-start)
 guide which made it so simple that I've been spending this time *blogging* instead of configuring. 
 
-Thanks Zola and Tabi!
+Of course, now I've got to get Zola, Tabi, and Github pages/workflows all working together to get things published...
+
+Oh well, Thanks Zola and Tabi!
