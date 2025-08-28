@@ -14,6 +14,9 @@ jobs:
       - name: Install zola
         run: sudo snap install --edge zola
 
+      - name: Update git submodules.
+        run: git submodule update --init --recursive
+
       - name: Build site
         run: zola build
 
