@@ -133,7 +133,7 @@ to do, but that's fine since it does what I need it to do well enough.
 So encoding/decoding is solved. Wonderful. Detecting when we have something other than English and reporting it is easy
 enough and should give us somewhere to go if someone cares to write non-english parsing and code page recognition. It's not
 a trivial problem since chinese character can get mixed in with english characters when creating variables and that whole 
-thing just end sup being an entire cluster-f. I'm not interested in doing that work. It's officially 'not supported' and
+thing just ends up being an entire cluster-f. I'm not interested in doing that work. It's officially 'not supported' and
 I feel more than happy with an error message that explains the issue of non-English non-support.
 
 ## Pseudo-Formats ##
