@@ -165,8 +165,8 @@ an exe, we still want to save the project and have a DLL base address value insi
 
 On the parsing side, I've gone through three phases and a bit more research at the start would have made this simpler.
 I started with [nom](https://crates.io/crates/nom) which is a parser combinator library. I switched to [winnow](https://crates.io/crates/winnow)
-which is a fork of nom with a lot of ergonomic changes. I originally chose nom because I wanted to learn about parser libraries
-and see what it was like using them. Sadly, the problem with parser combinator libraries is that the combinator part. The very
+which is a fork of nom with a lot of ergonomic changes. I originally chose nom because I wanted to learn about parser combinatoir
+libraries and see what it was like using them. Sadly, the problem with parser combinator libraries is that the combinator part. The very
 thing that makes them so powerful is the same thing that annoyed the heck out of me while using them. Combining the smaller 
 parsers to create larger systems looked great in toy examples. So clean. So pretty!
 
