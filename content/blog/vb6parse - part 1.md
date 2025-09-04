@@ -48,7 +48,7 @@ Some of the downloaded code wasn't in English.
 This shouldn't have been a surprise, but I hadn't really given it much of a thought at first. 
 Worse, VB6 comes from before the era of Unicode and the miracle that is UTF-8/16/32. So why is this such an issue? 
 After all, that there are other languages in the world isn't exactly a huge surprise. What *is* a huge surprise
-is that compiling a Chinese language VB6 project fails if the country/culture/language selection in Windows is set to 
+is that compiling a Chinese language VB6 project fails if the country / culture / language selection in Windows is set to 
 English! The problem is that since the source-code defaults to whatever Windows Code Page the OS is set to rather than 
 being specified somewhere in the project file. This means we have to just *know* somehow what language the code was 
 originally written in. If you want to compile some random code you might have to change your language/region/culture
