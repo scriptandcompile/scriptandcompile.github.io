@@ -59,7 +59,7 @@ code page (ie, is likely English) and then convert it to a UTF-8 string. This pr
 means we need to reserve a buffer for the code, fill this buffer, then create a second buffer and copy and convert from 
 this first buffer into the second buffer.
 
-Luckily for us, someone else has done most of this work for us, namely with the (encoding_rs)[https://crates.io/crates/encoding_rs] 
+Luckily for us, someone else has done most of this work for us, namely with the [encoding_rs](https://crates.io/crates/encoding_rs) 
 library. On the usability side, I want to be able to read a file by just giving the library a file path, or the contents 
 of a file. A file path because this is likely the most common way to use the API, and the second because testing sucks
 when you have to write a file for unit tests. Also, a parser that requires a file system is a pain when you want to write
