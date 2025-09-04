@@ -65,7 +65,7 @@ of a file. A file path because this is likely the most common way to use the API
 when you have to write a file for unit tests. Also, a parser that requires a file system is a pain when you want to write
 an interpreter or code hosting engine. I'm not sure if those are something I plan to do, but since it is required for 
 ease of testing anyway, I should include it. Especially since the file based API entry point will likely just use the 
-underlying string fed API entry anyway.
+underlying byte fed API entry anyway.
 
 This should be as easy as:
 
