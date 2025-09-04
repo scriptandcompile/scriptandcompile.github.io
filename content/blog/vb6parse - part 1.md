@@ -63,7 +63,7 @@ Luckily for us, someone else has done most of this work for us, namely with the 
 library. On the usability side, I want to be able to read a file by just giving the library a file path, or the contents 
 of a file. A file path because this is likely the most common way to use the API, and the second because testing sucks
 when you have to write a file for unit tests. Also, a parser that requires a file system is a pain when you want to write
-an interpreter / or code hosting engine. I'm not sure if those are something I plan to do, but since it is required for 
+an interpreter or code hosting engine. I'm not sure if those are something I plan to do, but since it is required for 
 ease of testing anyway, I should include it. Especially since the file based API entry point will likely just use the 
 underlying string fed API entry anyway.
 
