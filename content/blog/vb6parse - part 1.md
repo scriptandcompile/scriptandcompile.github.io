@@ -173,11 +173,11 @@ the smaller parsers to create larger systems looked great in toy examples. So cl
 Then I tried to add errors and warning reporting. This is where things fell apart. Badly.
 
 Suddenly those five line clean parser combination examples exploded into a huge amount of lines where I had to constantly
-check for errors before I could 'combine' the parsers again. I already had that same thing with Pratt parsers and custom
-parsing processes, but now I had a weird type signature and an extra level of mental abstraction in the type system I had
+check for errors before I could 'combine' the parsers again. I already had that same thing with Pratt parsers and my custom
+parsing processes, but now I had weird type signature and an extra level of mental abstraction in the type system I had
 to keep in mind.
 
-Nope, I decided to write a simplified parser library and rewrite it to use the new library. I'm currently in the middle
+Nope, I decided to write a simple parser library and rewrite vb6parse to use the new library. I'm currently in the middle
 of this rewrite and it is going well enough and it's making sense. But, like all rewrites, it seems to be a quagmire of
 slow, unimpressive progress which suddenly 'shifts' all at once into success.
 
