@@ -200,7 +200,7 @@ processing VB6. There are a lot of ways things can be done wrong - as in any lan
 that we can actually provide a lot of helpful errors to correct things. That leaves us with three kinds of results.
 
 1) Successful parsing without any errors.
-2) Successful parsing, but we have one ore more errors where we recovered or could correct for the issue.
+2) Successful parsing, but we have one or more errors where we recovered or could correct for the issue.
 3) Failed parsing. Whatever went wrong was so overwhelming, so terrible that we just can't make any progress.
 
 Now result number one is easy to handle. It's exactly what we want so it's easy to plan to handle. The second result is
